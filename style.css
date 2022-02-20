@@ -1,0 +1,130 @@
+/* body {
+    background-color: antiquewhite;
+}
+
+h1 {
+    color: cornflowerblue;
+    transition: color 0.5s ease-in-out;
+}
+
+.clicked {
+    color: tomato;
+}
+
+.ttt {
+    font-family: "Courier New", Courier, monospace;
+} */
+
+.hidden {
+    display: none;
+}
+
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#inner {
+    position: relative;
+    text-align: center;
+    background-color: rgba(190, 190, 190, 0.7);
+    border-radius: 20px;
+    padding: 100px 10px 50px;
+    margin: 200px 30px;
+}
+
+#backImg {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+#login-form {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+#login-form input {
+    background-color: transparent;
+    border-width: 0;
+    border-bottom-width: 5px;
+    border-bottom-color: aliceblue;
+    font-size: 15px;
+    padding: 10px;
+    color: ghostwhite;
+}
+
+#login-form button {
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 15px;
+    border-color: aliceblue;
+    margin-left: 5px;
+    opacity: 0.8;
+    color: black;
+}
+#greeting {
+    margin: 20px 0px;
+    font-size: 35px;
+    color: lightcyan;
+}
+
+#clock {
+    margin: 0px 0 20px;
+    font-size: 100px;
+    color: aliceblue;
+}
+
+#todo-form input {
+    width: 50%;
+    background-color: transparent;
+    border-width: 0;
+    border-bottom-width: 5px;
+    border-bottom-color: aliceblue;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 10px;
+    color: midnightblue;
+}
+
+#todo-list li {
+    list-style-type: none;
+    text-align: left;
+    margin: 5px 200px;
+    margin-bottom: 5px;
+}
+
+#todo-list li :nth-child(1) {
+    font-size: 20px;
+    font-weight: 900;
+    color: honeydew;
+    margin-right: 30px;
+}
+
+#todo-list li :nth-child(2) {
+    background-color: transparent;
+    border-width: 0;
+}
+
+#quote {
+    margin-top: 30px;
+}
+
+#quote :nth-child(n) {
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+}
+
+#weather {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    font-weight: 900;
+    font-size: 15px;
+    color: bisque;
+}
